@@ -45,6 +45,7 @@ module.exports = {
     port: 3002,
   },
   module: {
+
     rules: [
       {
         test: /\.m?js$/,
