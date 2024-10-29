@@ -4,6 +4,7 @@
 <head>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-S4C4P209W9"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Ensure jQuery is loaded -->
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -41,7 +42,7 @@
 
   <main>
     <!-- ===== Hero Section Start ===== -->
-    <section id="home " class="relative overflow-hidden z-10 pt-35 md:pt-40 xl:pt-45 h-screen">
+    <section id="home " class="relative overflow-hidden z-10 pt-35 md:pt-40 xl:pt-25 h-screen bg-black">
       <!-- Hero Content -->
 
 
@@ -57,7 +58,11 @@
             </span>
           </div> -->
           <div class="mt-5 mb-12">
-            <img class="mx-auto max-h-80" src="./images/hero/BeconLogo.webp" alt="hero" />
+            <video autoplay muted loop>
+              <source src="./images/Schedule/logo_video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+            <!-- <img class="mx-auto max-h-80" src="./images/hero/BeconLogo.webp" alt="hero" /> -->
           </div>
           
           <!-- <div class="gap-4 justify-center" id="heroButtonLogin">
@@ -99,57 +104,60 @@
     
 
     <!-- ===== Custom Section Start ===== -->
-    <section id="custom" class="pt-17.5 lg:pt-22.5 xl:pt-27.5">
+    <section id="custom"   class="pt-17.5 mb-10 lg:pt-22.5 xl:pt-27.5 bg-cover bg-center bg-no-repeat bg-[url('https://images.pexels.com/photos/20376391/pexels-photo-20376391/free-photo-of-neptune-in-the-shadows.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load')]">
 
 
+      
 
 
 
       <div class="max-w-[1222px] mx-auto px-4 sm:px-8 xl:px-0">
 
 
-
+<!-- 
         <div class="wow fadeInUp mb-17.5 text-center">
           <h2 class="text-white text-2xl font-extrabold sm:text-4xl xl:text-heading-2">
-            XYZ
+a
           </h2>
-        </div>
+        </div> -->
     
         <!-- First Image Left, Text Right -->
         <div class="flex flex-col md:flex-row gap-8 items-center mb-10">
-          <div class="md:w-1/2">
-            <img src="C:/Users/akshi/OneDrive/Pictures/Screenshots/photo.png" alt="Image Description" class="w-full rounded-lg" />
+          <div class="md:w-1/2 mb-10">
+            <img src="C:/Users/akshi/OneDrive/Pictures/Screenshots/photo.png" alt="Image Description" class=" mx-30 w-1/2 h-auto rounded-lg" />
           </div>
-          <div class="md:w-1/2 text-white">
+          <div class="md:w-1/2 text-white mb-10">
             <h3 class="text-xl font-bold">About </h3>
-            <p class="mt-4">
-              Your descriptive text goes here. Explain more about the section or provide relevant information.
+            <p class="mt-4 text-xs" >
+              BECon'25, organized by the Entrepreneurship Development Cell (eDC) of IIT Delhi, is India's premier student-led E-Summit dedicated to empowering the next generation of innovators and entrepreneurs. Each year, BECon brings together visionary leaders, industry experts, and aspiring changemakers from across the nation.
+
             </p>
           </div>
         </div>
 
         <!-- Second Text Left, Image Right -->
         <div class="flex flex-col md:flex-row-reverse gap-8 items-center mb-10">
-          <div class="md:w-1/2">
-            <img src="C:/Users/akshi/OneDrive/Pictures/Screenshots/photo.png" alt="Image Description" class="w-full rounded-lg" />
+          <div class="md:w-1/2 mb-10">
+            <img src="C:/Users/akshi/OneDrive/Pictures/Screenshots/photo.png" alt="Image Description" class=" mx-50 w-1/2 h-auto rounded-lg" />
           </div>
-          <div class="md:w-1/2 text-white">
+          <div class="md:w-1/2 text-white mb-10">
             <h3 class="text-xl font-bold">Mission</h3>
-            <p class="mt-4">
-              Your descriptive text goes here. Explain more about the section or provide relevant information.
+            <p class="mt-4 text-xs">
+              Our mission is to inspire and equip young entrepreneurs to create groundbreaking solutions that address sustainability and innovation. Through BECon'25, we aim to bridge the gap between academia, industry, and policymakers, providing a unique platform where students can network, learn, and innovate.
             </p>
           </div>
         </div>
+        
 
         <!-- Third Image Left, Text Right -->
-        <div class="flex flex-col md:flex-row gap-8 items-center mb-10">
-          <div class="md:w-1/2">
-            <img src="C:/Users/akshi/OneDrive/Pictures/Screenshots/photo.png" alt="Image Description" class="w-full rounded-lg" />
+        <div class="flex flex-col  md:flex-row gap-8 items-center mb-10 ">
+          <div class="md:w-1/2 mb-10">
+            <img src="C:/Users/akshi/OneDrive/Pictures/Screenshots/photo.png" alt="Image Description" class=" mx-30 w-1/2 h-auto rounded-lg" />
           </div>
-          <div class="md:w-1/2 text-white">
+          <div class="md:w-1/2 text-white mb-10">
             <h3 class="text-xl font-bold">Vision</h3>
-            <p class="mt-4">
-              Your descriptive text goes here. Explain more about the section or provide relevant information.
+            <p class="mt-4 text-xs">
+              To establish BECon as a premier platform that champions sustainable innovation, driving the next wave of entrepreneurship focused on a green and resilient future. We envision a thriving community of forward-thinking individuals and organizations working to propel India towards a sustainable tomorrow.
             </p>
           </div>
         </div>
@@ -169,13 +177,13 @@
         <div class="relative top-18">
           <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden -my-55">
             <div class="absolute left-1/2 -translate-x-1/2 top-0">
-              <img loading="lazy" src="./images/blur/blur-13.svg" alt="blur" class="max-w-none" />
+              <img loading="lazy" src="./images/blur/blur-14.svg" alt="blur" class="max-w-none" />
             </div>
             <div class="absolute left-1/2 -translate-x-1/2 top-0">
               <img loading="lazy" src="./images/blur/blur-14.svg" alt="blur" class="max-w-none" />
             </div>
             <div class="absolute left-1/2 -translate-x-1/2 top-0">
-              <img loading="lazy" src="./images/blur/blur-15.svg" alt="blur" class="max-w-none" />
+              <img loading="lazy" src="./images/blur/blur-14.svg" alt="blur" class="max-w-none" />
             </div>
           </div>
           <div
@@ -300,51 +308,49 @@
     
     <section class="content-section" data-scroll>
       <figure class="figure"><video autoplay muted loop>
-        <source src="./images/Schedule/2.mp4" type="video/mp4" >
+        <source src="./images/video/11.mp4" type="video/mp4" >
 
         
   </video></figure>
       <div class="content">
         <header class="header">
-          <div class="subheading">All-Old Techniques</div>
+          <!-- <div class="subheading">All-Old Techniques</div> -->
           <h2 class="heading">Anastomosis</h2>
         </header>
         <p class="paragraph">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
+          <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam. -->
         </p>
       </div>
     </section>
     
-    <section class="content-section" data-scroll>
+    <!-- <section class="content-section" data-scroll>
       <figure class="figure"><video autoplay muted loop>
-        <source src="./images/Schedule/1.mp4" type="video/mp4" >
+        <source src="./images/video/11.mp4" type="video/mp4" >
 
         
   </video></figure>
       <div class="content">
         <header class="header">
-          <div class="subheading">All-Old Techniques</div>
           <h2 class="heading">Regional</h2>
         </header>
         <p class="paragraph">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
         </p>
       </div>
-    </section>
+    </section> -->
     
     <section class="content-section" data-scroll>
       <figure class="figure"><video autoplay muted loop>
-        <source src="./images/Schedule/2.mp4" type="video/mp4" >
+        <source src="./images/video/22.mp4" type="video/mp4" >
 
         
   </video></figure>
       <div class="content">
         <header class="header">
-          <div class="subheading">All-Old Techniques</div>
-          <h2 class="heading">Becon after movie</h2>
+          <!-- <div class="subheading">All-Old Techniques</div> -->
+          <h2 class="heading">BECon’24</h2>
         </header>
         <p class="paragraph">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam.
+          <!-- Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nisi illum rem recusandae. Tempore consequuntur nihil cumque quis nam deserunt earum atque et ullam facere accusamus cum natus, autem numquam. -->
         </p>
       </div>
     </section>
@@ -497,1014 +503,82 @@
 
     <!-- ====== Sponsors Section Start -->
     <section id="sponsors" class="wow fadeInUp relative overflow-hidden pt-17.5 lg:pt-22.5 xl:pt-27.5">
-      <div class="max-w-[1104px] mx-auto px-4 sm:px-8 xl:px-0">
-        <div class="wow fadeInUp text-center mb-17.5">
-          <h2 class="text-white text-2xl font-extrabold sm:text-4xl xl:text-heading-2">
+      <div class="max-w-[1104px] mx-auto px-4 sm:px-8 xl:px-0 mb-2">
+        <div class="wow fadeInUp text-center mb-50">
+          <h2 class="text-white text-2xl font-extrabold sm:text-4xl xl:text-heading-2 ">
             Auto expo
           </h2>
         </div>
-        <div class="relative overflow-hidden z-10">
-          <span
-            class="max-w-[128px] w-full h-[37px] block inset-0 pointer-events-none absolute z-10 left-0 top-1/2 -translate-y-1/2 bg-gradient-to-l from-dark/0 to-dark/100"></span>
-          <span
-            class="max-w-[128px] w-full h-[37px] block inset-0 pointer-events-none absolute z-10 left-auto top-1/2 -translate-y-1/2 bg-gradient-to-r from-dark/0 to-dark/100"></span>
-          <div class="swiper clients-carousel">
-            <div class="swiper-wrapper items-center select-none !ease-linear">
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.adityabirla.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/adityabirla.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://mastersunion.org/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/masters union.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.firstnaukri.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Firstnaukri_Logo.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.panscience.xyz/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/PSI - Horizontal Logo.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.reslink.org/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/reslink.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://thinknow.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/thinknow.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.top-one-percent.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/top1percent.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.instagram.com/teamourebeverages/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Teamoure_Logo-removebg-preview.png" alt="client"
-                    class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://inc42.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/INC42_Logo-removebg-preview.png" alt="client"
-                    class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.lnfcu.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/L_N_Logo-removebg-preview.png" alt="client"
-                    class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://uniadvise.in/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Uniadvise_Logo-removebg-preview.png" alt="client"
-                    class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://legacygrowth.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Legacygrowth_Logo-removebg-preview.png" alt="client"
-                    class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://news.abplive.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/ABP.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://introbot.co/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/ExtendedLogoLightTheme.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://startupnews.fyi/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Startup_News.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://delhi.tie.org/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Tie.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://westbridgecap.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/WBC.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.makeintern.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/MakeIntern-removebg-preview.png" alt="client"
-                    class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://divinetalk.in/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/DivineTalk-removebg-preview.png" alt="client"
-                    class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://visionias.in/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Vision-removebg-preview.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.mgmotor.co.in/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/MG-removebg-preview.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.revfin.in/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Revfin.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.dsgroup.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/DSGroup-removebg-preview.png" alt="client"
-                    class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.volkswagen.co.in/en.html" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Volkswagen.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.plushforher.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Plush-removebg-preview.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.campaigningsource.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Campaigning_Source-removebg-preview.png" alt="client"
-                    class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://wadhwanifoundation.org/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Wadhwani.webp" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://useinsider.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Insider.svg" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://first.partners/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/FirstPartners-removebg-preview.png" alt="client"
-                    class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://aws.amazon.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/AWS.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://headstart.in/delhi" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Headstart-removebg-preview.png" alt="client"
-                    class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://dubeat.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/DUBeat.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://dubeat.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Accomplice.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.algocs.in/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Algocs-removebg-preview.png" alt="client" class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://www.amarujala.com/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Amar_Ujala-removebg-preview.png" alt="client"
-                    class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
-              <div class="swiper-slide !w-auto">
-                <a class="overflow-hidden relative rounded-lg h-50 w-50 p-2 flex justify-center items-center cta-box-gradient bg-dark z-999"
-                  href="https://sayaloha.in/" target="_blank">
-                  <img loading="lazy" src="./images/sponsors/Aloha-2-removebg-preview.png" alt="client"
-                    class="w-full" />
-                  <!-- bg shapes -->
-                  <span class="absolute bottom-0 left-0 -z-1"><img loading="lazy" src="./images/cta/grid.svg"
-                      alt="grid" /></span>
-                  <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden">
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-22.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-23.svg" alt="blur" class="max-w-none" />
-                    </span>
-                    <span class="absolute left-1/2 bottom-0 -translate-x-1/2 -z-1">
-                      <img loading="lazy" src="./images/blur/blur-24.svg" alt="blur" class="max-w-none" />
-                    </span>
-                  </div>
-
-                  <!-- stars -->
-                  <div
-                    class="max-w-[482px] w-full h-60 overflow-hidden absolute -z-1 -bottom-25 left-1/2 -translate-x-1/2">
-                    <div class="stars"></div>
-                    <div class="stars2"></div>
-                  </div>
-                </a>
-              </div>
+        <div class="we-carousel mx-auto px-4 sm:px-8 xl:px-0 relative z-1 pt-10 md:pt-0 md:-mt-12">
+          <div class="we-arrow left">&#10094;</div>
+          <div class="we-card-container">
+            <div class="we-card"> 
+        <img src="./images/auto/f.jpg" alt="Girl in a jacket" >
+      
             </div>
+
+            <div class="we-card"> 
+           <img src="./images/auto/c.jpg" width="800" height="400">
+            </div>
+            <div class="we-card"> 
+         <img src="./images/auto/d.jpg" alt="Girl in a jacket" width="800" height="400">
+            </div>
+            <div class="we-card"> 
+       <img src="./images/auto/e.jpg" alt="Girl in a jacket" width="800" height="400">
+            </div>
+            <div class="we-card"> 
+       <img src="./images/auto/a.jpg" alt="Girl in a jacket" width="800" height="400">
+            </div>
+            <div class="we-card"> 
+          <img src="./images/auto/g.jpg" alt="Girl in a jacket" width="800" height="400">
+            </div>
+
           </div>
-        </div>
-        <div class="inset-x-0 flex justify-center bg-gradient-to-t from-dark pointer-events-none mt-16">
-          <button onclick="routerRedirect('sponsor.html')"
-            class="button-border-gradient hover:button-gradient-hover relative text-sm text-sky-300 font-semibold px-4.5 py-3 rounded-lg pointer-events-auto flex mx-auto ease-in duration-300">
-            Show more...
-          </button>
-        </div>
+          <div class="we-arrow right">&#10095;</div>
       </div>
+      </div>
+
+
+      
+
+
+    </section>
+    <section id="sponsors" class="wow fadeInUp relative overflow-hidden pt-17.5 lg:pt-22.5 xl:pt-27.5">
+      <div class="max-w-[1104px] mx-auto px-4 sm:px-8 xl:px-0 mb-2">
+        <div class="wow fadeInUp text-center mb-50">
+          <h2 class="text-white text-2xl font-extrabold sm:text-4xl xl:text-heading-2 ">
+            Startup Expo
+          </h2>
+        </div>
+        <div class="we-carousel1 mx-auto px-4 sm:px-8 xl:px-0 relative z-1 pt-10 md:pt-0 md:-mt-12">
+          <div class="we-arrow left">&#10094;</div>
+          <div class="we-card-container">
+            <div class="we-card1"> 
+        <img src="./images/startup-expo/4.jpg" alt="Girl in a jacket" >
+      
+            </div>
+            <div class="we-card1"> 
+       <img src="./images/startup-expo/3.jpg" alt="Girl in a jacket" width="800" height="400">
+            </div>
+            <div class="we-card1"> 
+           <img src="./images/startup-expo/2.jpg" width="800" height="400">
+            </div>
+            <div class="we-card1"> 
+         <img src="./images/startup-expo/5.jpg" alt="Girl in a jacket" width="800" height="400">
+            </div>
+            <div class="we-card1"> 
+       <img src="./images/startup-expo/4.jpg" alt="Girl in a jacket" width="800" height="400">
+            </div>
+
+          </div>
+          <div class="we-arrow right">&#10095;</div>
+      </div>
+      </div>
+
+
+      
+
+
     </section>
 
 
@@ -1553,7 +627,7 @@
               </div>
 
               <button disabled onclick="registerForEvent('Inaugration')" id="InaugrationRegisterButton"
-                class="button-border-gradient relative rounded-lg text-sky-300 text-sm py-2 px-4.5 shadow-button hover:button-gradient-hover hover:shadow w-full mt-4 flex justify-center items-center gap-1">
+                class="button-border-gradient relative rounded-lg text-sky-300 text-sm py-2 px-4.5   hover:button-gradient-hover hover:shadow w-full mt-4 flex justify-center items-center gap-1">
                 <span role="status" id="Inaugration">
                   <svg aria-hidden="true"
                     class="inline w-5 h-5 text-gray-200 animate-spin dark:text-gray-600 fill-gray-600 dark:fill-gray-300"
@@ -1595,7 +669,7 @@
               </div>
 
               <button onclick="registerForEvent('OldSchoolNewRules')" id="OldSchoolNewRulesRegisterButton"
-                class="button-border-gradient relative rounded-lg text-sky-300 text-sm py-2 px-4.5 shadow-button hover:button-gradient-hover hover:shadow w-full mt-4 flex justify-center items-center gap-1">
+                class="button-border-gradient relative rounded-lg text-sky-300 text-sm py-2 px-4.5   hover:button-gradient-hover hover:shadow w-full mt-4 flex justify-center items-center gap-1">
                 <span role="status" id="OldSchoolNewRules">
                   <svg aria-hidden="true"
                     class="inline w-5 h-5 text-gray-200 animate-spin dark:text-gray-600 fill-gray-600 dark:fill-gray-300"
@@ -1637,7 +711,7 @@
               </div>
 
               <button onclick="registerForEvent('TheIitdEffect')" id="TheIitdEffectRegisterButton"
-                class="button-border-gradient relative rounded-lg text-sky-300 text-sm py-2 px-4.5 shadow-button hover:button-gradient-hover hover:shadow w-full mt-4 flex justify-center items-center gap-1">
+                class="button-border-gradient relative rounded-lg text-sky-300 text-sm py-2 px-4.5   hover:button-gradient-hover hover:shadow w-full mt-4 flex justify-center items-center gap-1">
                 <span role="status" id="TheIitdEffect">
                   <svg aria-hidden="true"
                     class="inline w-5 h-5 text-gray-200 animate-spin dark:text-gray-600 fill-gray-600 dark:fill-gray-300"
@@ -1677,7 +751,7 @@
               </div>
 
               <button onclick="registerForEvent('FireChatWithAmitAggarwal')" id="FireChatWithAmitAggarwalRegisterButton"
-                class="button-border-gradient relative rounded-lg text-sky-300 text-sm py-2 px-4.5 shadow-button hover:button-gradient-hover hover:shadow w-full mt-4 flex justify-center items-center gap-1">
+                class="button-border-gradient relative rounded-lg text-sky-300 text-sm py-2 px-4.5   hover:button-gradient-hover hover:shadow w-full mt-4 flex justify-center items-center gap-1">
                 <span role="status" id="FireChatWithAmitAggarwal">
                   <svg aria-hidden="true"
                     class="inline w-5 h-5 text-gray-200 animate-spin dark:text-gray-600 fill-gray-600 dark:fill-gray-300"
@@ -1719,7 +793,7 @@
               </div>
 
               <button onclick="registerForEvent('TalkWithKiranBedi')" id="TalkWithKiranBediRegisterButton"
-                class="button-border-gradient relative rounded-lg text-sky-300 text-sm py-2 px-4.5 shadow-button hover:button-gradient-hover hover:shadow w-full mt-4 flex justify-center items-center gap-1">
+                class="button-border-gradient relative rounded-lg text-sky-300 text-sm py-2 px-4.5   hover:button-gradient-hover hover:shadow w-full mt-4 flex justify-center items-center gap-1">
                 <span role="status" id="TalkWithKiranBedi">
                   <svg aria-hidden="true"
                     class="inline w-5 h-5 text-gray-200 animate-spin dark:text-gray-600 fill-gray-600 dark:fill-gray-300"
@@ -1761,7 +835,7 @@
               </div>
 
               <button onclick="registerForEvent('SheMeansBusiness')" id="SheMeansBusinessRegisterButton"
-                class="button-border-gradient relative rounded-lg text-sky-300 text-sm py-2 px-4.5 shadow-button hover:button-gradient-hover hover:shadow w-full mt-4 flex justify-center items-center gap-1">
+                class="button-border-gradient relative rounded-lg text-sky-300 text-sm py-2 px-4.5   hover:button-gradient-hover hover:shadow w-full mt-4 flex justify-center items-center gap-1">
                 <span role="status" id="SheMeansBusiness">
                   <svg aria-hidden="true"
                     class="inline w-5 h-5 text-gray-200 animate-spin dark:text-gray-600 fill-gray-600 dark:fill-gray-300"
@@ -2801,7 +1875,7 @@
         </div>
         <div class="inset-x-0 flex justify-center bg-gradient-to-t from-dark pointer-events-none mt-16">
           <button onclick="routerRedirect('sponsor.html')"
-            class="button-border-gradient hover:button-gradient-hover relative text-sm text-sky-300 font-semibold px-4.5 py-3 rounded-lg pointer-events-auto flex mx-auto ease-in duration-300">
+            class="button-border-gradient hover:button-gradient-hover mb-10 relative text-sm text-sky-300 font-semibold px-4.5 py-3 rounded-lg pointer-events-auto flex mx-auto ease-in duration-300">
             Show more...
           </button>
         </div>
@@ -2810,172 +1884,15 @@
     <!-- ====== Sponsors Section End -->
 
     <!-- ===== About Section Start ===== -->
-    <section id="about" class="wow fadeInUp relative overflow-hidden pt-17.5 lg:pt-22.5 xl:pt-27.5 pb-10">
-      <div class="max-w-[1170px] mx-auto px-4 sm:px-8 xl:px-0">
-        <div class="wow mb-17.5 fadeInUp text-center">
-          <h2 class="text-white text-2xl font-extrabold sm:text-4xl xl:text-heading-2">
-            About Us
-          </h2>
-        </div>
-        <div class="grid sm:grid-cols-12 gap-7.5" data-highlighter>
-          <!-- features item -->
-          <div class="sm:col-span-12">
-            <div class="relative rounded-3xl features-box-border">
-              <div class="relative overflow-hidden rounded-3xl p-10 xl:p-15 box-hover">
-                <div class="flex items-center justify-between relative z-20">
-                  <div class="w-full text-center">
-                    <p class="font-medium">
-                      BECON'24, the flagship Annual Business and
-                      Entrepreneurship Conclave at IIT Delhi, asserts its
-                      prominence with the 2024 edition on February 3rd and
-                      4th. Anticipating a staggering footfall of 30K+
-                      attendees, BECON serves as India's foremost
-                      entrepreneurship conference, creating a dynamic platform
-                      for the exchange of ideas among business experts,
-                      entrepreneurs, and change-makers.
-                    </p>
-                  </div>
-                </div>
 
-                <!-- bg shapes -->
-                <div class="absolute -z-10 pointer-events-none inset-0 overflow-hidden -mx-28">
-                  <span class="absolute right-0 bottom-0"><img loading="lazy" src="./images/features/shape-01.png"
-                      alt="shape" /></span>
-                  <span class="absolute left-0 top-0"><img loading="lazy" src="./images/features/shape-02.svg"
-                      alt="shape" /></span>
-                  <span class="absolute left-1/2 -translate-x-1/2 bottom-0">
-                    <img loading="lazy" src="./images/blur/blur-03.svg" alt="blur" class="max-w-none" />
-                  </span>
-                  <span class="absolute left-1/2 -translate-x-1/2 bottom-0">
-                    <img loading="lazy" src="./images/blur/blur-04.svg" alt="blur" class="max-w-none" />
-                  </span>
-                  <span class="absolute left-1/2 -translate-x-1/2 bottom-0">
-                    <img loading="lazy" src="./images/blur/blur-05.svg" alt="blur" class="max-w-none" />
-                  </span>
-                  <span class="absolute right-0 top-0">
-                    <img loading="lazy" src="./images/features/shape-03.svg" alt="shape" class="max-w-none" />
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="inset-x-0 flex justify-center bg-gradient-to-t from-dark pointer-events-none mt-16">
-          <button onclick="routerRedirect('about.html')"
-            class="button-border-gradient hover:button-gradient-hover relative text-sm text-sky-300 font-semibold px-4.5 py-3 rounded-lg pointer-events-auto flex mx-auto ease-in duration-300">
-            Show more...
-          </button>
-        </div>
-      </div>
-    </section>
     <!-- ===== About Section End ===== -->
 
 
     <!-- ====== Startup Expo Section Start -->
-    <section id="startupExpo" class="wow fadeInUp relative overflow-hidden py-17.5 lg:py-22.5 xl:py-27.5">
-      <div class="max-w-[1104px] mx-auto px-4 sm:px-8 xl:px-0">
-        <div class="wow fadeInUp text-center mb-17.5">
-          <h2 class="text-white text-2xl font-extrabold sm:text-4xl xl:text-heading-2">
-            Startup Expo
-          </h2>
-        </div>
-        <div class="relative overflow-hidden z-10">
 
-          <div class="w-full relative flex items-center justify-center">
-            <button aria-label="slide backward" class="absolute z-30 left-0 ml-10 cursor-pointer" id="prev">
-              <svg class="text-white" width="8" height="14" viewBox="0 0 8 14" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M7 1L1 7L7 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" />
-              </svg>
-            </button>
-            <div class="w-full h-full mx-auto overflow-x-hidden overflow-y-hidden">
-              <div id="slider" class="h-full flex gap-16 items-center justify-start transition ease-out duration-700">
-
-                <div
-                  class="flex flex-shrink-0 relative w-50 h-50 p-3 rounded-lg bg-gradient-to-b from-[#271352] to-[#432e6d] shadow-lg">
-                  <img src="./images/startupExpo/ssr_innovation_lab_logo-removebg-preview.png" alt="startup"
-                    class="w-full" />
-                </div>
-
-                <div
-                  class="flex flex-shrink-0 relative w-50 h-50 p-3 rounded-lg bg-gradient-to-b from-[#271352] to-[#432e6d] shadow-lg">
-                  <img src="./images/startupExpo/arete_business_solutions_india_logo-removebg-preview.png" alt="startup"
-                    class="w-full" />
-                </div>
-
-                <div
-                  class="flex flex-shrink-0 relative w-50 h-50 p-3 rounded-lg bg-gradient-to-b from-[#271352] to-[#432e6d] shadow-lg">
-                  <img src="./images/startupExpo/nutri-removebg-preview.png" alt="startup" class="w-full" />
-                </div>
-
-                <div
-                  class="flex flex-shrink-0 relative w-50 h-50 p-3 rounded-lg bg-gradient-to-b from-[#271352] to-[#432e6d] shadow-lg">
-                  <img src="./images/startupExpo/Sheopal-removebg-preview.png" alt="startup" class="w-full" />
-                </div>
-
-                <div
-                  class="flex flex-shrink-0 relative w-50 h-50 p-3 rounded-lg bg-gradient-to-b from-[#271352] to-[#432e6d] shadow-lg">
-                  <img src="./images/startupExpo/Paysprint-removebg-preview.png" alt="startup" class="w-full" />
-                </div>
-
-                <div
-                  class="flex flex-shrink-0 relative w-50 h-50 p-3 rounded-lg bg-gradient-to-b from-[#271352] to-[#432e6d] shadow-lg">
-                  <img src="./images/startupExpo/techAtrio-removebg-preview.png" alt="startup" class="w-full" />
-                </div>
-
-                <div
-                  class="flex flex-shrink-0 relative w-50 h-50 p-3 rounded-lg bg-gradient-to-b from-[#271352] to-[#432e6d] shadow-lg">
-                  <img src="./images/startupExpo/corner_art_store_logo-removebg-preview.png" alt="startup"
-                    class="w-full" />
-                </div>
-
-                <div
-                  class="flex flex-shrink-0 relative w-50 h-50 p-3 rounded-lg bg-gradient-to-b from-[#271352] to-[#432e6d] shadow-lg">
-                  <img src="./images/startupExpo/chitra-removebg-preview.png" alt="startup" class="w-full" />
-                </div>
-
-                <div
-                  class="flex flex-shrink-0 relative w-50 h-50 p-3 rounded-lg bg-gradient-to-b from-[#271352] to-[#432e6d] shadow-lg">
-                  <img src="./images/startupExpo/Ubon-Logo-removebg-preview.png" alt="startup" class="w-full" />
-                </div>
-
-                <!-- Repeat first two -->
-                <div
-                  class="flex flex-shrink-0 relative w-50 h-50 p-3 rounded-lg bg-gradient-to-b from-[#271352] to-[#432e6d] shadow-lg">
-                  <img src="./images/startupExpo/ssr_innovation_lab_logo-removebg-preview.png" alt="startup"
-                    class="w-full" />
-                </div>
-
-                <div
-                  class="flex flex-shrink-0 relative w-50 h-50 p-3 rounded-lg bg-gradient-to-b from-[#271352] to-[#432e6d] shadow-lg">
-                  <img src="./images/startupExpo/arete_business_solutions_india_logo-removebg-preview.png" alt="startup"
-                    class="w-full" />
-                </div>
-
-              </div>
-            </div>
-            <button aria-label="slide forward" class="absolute z-30 right-0 mr-10 cursor-pointer" id="next">
-              <svg class="text-white" width="8" height="14" viewBox="0 0 8 14" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1L7 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round" />
-              </svg>
-            </button>
-          </div>
-
-        </div>
-      </div>
-    </section>
     <!-- ====== Startup Expo Section End -->
 
 <!-- Beautiful Register Button with Upward Translation -->
-<div class="flex justify-center mt-10">
-  <button class="bg-gradient-to-r from-purple-800 via-indigo-900 to-purple-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-all hover:bg-gradient-to-l hover:shadow-xl ease-in-out duration-300"
-    style="transform: translateY(-20px);">
-    Register Now
-  </button>
-</div>
 
 
 
@@ -2997,6 +1914,126 @@
   <script src="./js/multiCardCarousels.js"></script>
   <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
 <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+
+
+
+<script>$(document).ready(function () {
+  let currentCardIndex = 0;
+  const cards = $('.we-card');
+  const totalCards = cards.length;
+  let autoSlide;
+
+  function updateCarousel() {
+    cards.removeClass('active prev-1 next-1 prev-2 next-2 prev-3 next-3');
+    $(cards[currentCardIndex]).addClass('active');
+
+    const prevIndex_1 = (currentCardIndex - 1 + totalCards) % totalCards;
+    const nextIndex_1 = (currentCardIndex + 1) % totalCards;
+    const prevIndex_2 = (currentCardIndex - 2 + totalCards) % totalCards;
+    const nextIndex_2 = (currentCardIndex + 2) % totalCards;
+    const prevIndex_3 = (currentCardIndex - 3 + totalCards) % totalCards;
+    const nextIndex_3 = (currentCardIndex + 3) % totalCards;
+
+    $(cards[prevIndex_1]).addClass('prev-1');
+    $(cards[nextIndex_1]).addClass('next-1');
+    $(cards[prevIndex_2]).addClass('prev-2');
+    $(cards[nextIndex_2]).addClass('next-2');
+    $(cards[prevIndex_3]).addClass('prev-3');
+    $(cards[nextIndex_3]).addClass('next-3');
+  }
+
+  function startAutoSlide() {
+    autoSlide = setInterval(() => {
+      currentCardIndex = (currentCardIndex + 1) % totalCards;
+      updateCarousel();
+    }, 3000); // Change slide every 3 seconds
+  }
+
+  function stopAutoSlide() {
+    clearInterval(autoSlide);
+  }
+
+  updateCarousel();
+  startAutoSlide(); // Start the automatic sliding
+
+  $('.right').click(function () {
+    currentCardIndex = (currentCardIndex + 1) % totalCards;
+    updateCarousel();
+    stopAutoSlide();
+    startAutoSlide(); // Restart auto slide after manual interaction
+  });
+
+  $('.left').click(function () {
+    currentCardIndex = (currentCardIndex - 1 + totalCards) % totalCards;
+    updateCarousel();
+    stopAutoSlide();
+    startAutoSlide(); // Restart auto slide after manual interaction
+  });
+
+  // Pause the automatic sliding when the mouse is over the carousel and resume when it leaves
+  $('.we-carousel').on('mouseenter', stopAutoSlide);
+  $('.we-carousel').on('mouseleave', startAutoSlide);
+});</script>
+
+
+
+<script>$(document).ready(function () {
+  let currentCardIndex = 0;
+  const cards = $('.we-card1');
+  const totalCards = cards.length;
+  let autoSlide;
+
+  function updateCarousel() {
+    cards.removeClass('active prev-1 next-1 prev-2 next-2 prev-3 next-3');
+    $(cards[currentCardIndex]).addClass('active');
+
+    const prevIndex_1 = (currentCardIndex - 1 + totalCards) % totalCards;
+    const nextIndex_1 = (currentCardIndex + 1) % totalCards;
+    const prevIndex_2 = (currentCardIndex - 2 + totalCards) % totalCards;
+    const nextIndex_2 = (currentCardIndex + 2) % totalCards;
+    const prevIndex_3 = (currentCardIndex - 3 + totalCards) % totalCards;
+    const nextIndex_3 = (currentCardIndex + 3) % totalCards;
+
+    $(cards[prevIndex_1]).addClass('prev-1');
+    $(cards[nextIndex_1]).addClass('next-1');
+    $(cards[prevIndex_2]).addClass('prev-2');
+    $(cards[nextIndex_2]).addClass('next-2');
+    $(cards[prevIndex_3]).addClass('prev-3');
+    $(cards[nextIndex_3]).addClass('next-3');
+  }
+
+  function startAutoSlide() {
+    autoSlide = setInterval(() => {
+      currentCardIndex = (currentCardIndex + 1) % totalCards;
+      updateCarousel();
+    }, 3000); // Change slide every 3 seconds
+  }
+
+  function stopAutoSlide() {
+    clearInterval(autoSlide);
+  }
+
+  updateCarousel();
+  startAutoSlide(); // Start the automatic sliding
+
+  $('.right').click(function () {
+    currentCardIndex = (currentCardIndex + 1) % totalCards;
+    updateCarousel();
+    stopAutoSlide();
+    startAutoSlide(); // Restart auto slide after manual interaction
+  });
+
+  $('.left').click(function () {
+    currentCardIndex = (currentCardIndex - 1 + totalCards) % totalCards;
+    updateCarousel();
+    stopAutoSlide();
+    startAutoSlide(); // Restart auto slide after manual interaction
+  });
+
+  // Pause the automatic sliding when the mouse is over the carousel and resume when it leaves
+  $('.we-carousel1').on('mouseenter', stopAutoSlide);
+  $('.we-carousel1').on('mouseleave', startAutoSlide);
+});</script>
 
   <!-- Javscript files end -->
 </body>

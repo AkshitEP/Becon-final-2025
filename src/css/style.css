@@ -20,7 +20,7 @@
   }
 
   body {
-    @apply font-plus-jakarta font-normal text-base text-dark-3 relative z-1 bg-dark;
+    @apply font-plus-jakarta font-normal text-base text-dark-3 relative z-1 bg-black;
   }
 }
 
@@ -53,7 +53,7 @@
   .box-bg {
     background: radial-gradient(
       180px circle at var(--mouse-x) var(--mouse-y),
-      #030014,
+      #bfbec5,
       transparent
     );
   }
@@ -109,7 +109,7 @@
   .gradient {
     background-image: linear-gradient(
       90deg,
-      rgba(229, 156, 255, 0.24) 0.01%,
+      rgba(156, 173, 255, 0.24) 0.01%,
       rgba(186, 156, 255, 0.24) 50.01%,
       rgba(156, 178, 255, 0.24) 100%
     );
@@ -143,7 +143,8 @@
     background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0.1) 0%,
-      rgba(255, 255, 255, 0) 100%
+      rgba(255, 0, 0, 0) 100%
+      
     );
     @apply hover:bg-opacity-0;
   }
@@ -155,9 +156,9 @@
     @apply gradient-border;
     background: linear-gradient(
       90deg,
-      rgba(229, 156, 255, 0.45) 0.01%,
-      rgba(186, 156, 255, 0.45) 50.01%,
-      rgba(156, 178, 255, 0.45) 100%
+      rgba(17, 249, 106, 0.663) 0.01%,
+      rgba(76, 242, 118, 0.45) 50.01%,
+      rgba(6, 231, 73, 0.45) 100%
     );
   }
 
@@ -612,3 +613,211 @@ body, html {
   font-family: "SF Pro Display","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+
+
+.we-carousel {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+
+.we-card-container {
+  width: 800px;
+  height: 400px;
+  position: relative;
+  border-radius: 100px;
+}
+
+.we-card {
+  width: 800px;
+  height: 400px;
+  background-color: #fff;
+  color: #000;
+/*   border-radius: 50px; */
+  box-sizing: border-box;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.5s ease;
+  filter: none;
+}
+
+
+.we-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.we-card p {
+  color: #555;
+}
+
+.we-card.active {
+  opacity: 1;
+  z-index: 2;
+  transform: translateX(0);
+}
+
+.we-card.prev-1,
+.we-card.next-1 {
+  opacity: 0.5;
+  filter: blur(4px);
+  z-index: 1;
+}
+
+.we-card.prev-2,
+.we-card.next-2 {
+  opacity: 0.2;
+  filter: blur(6px);
+  z-index: 1;
+}
+
+.we-card.prev-3,
+.we-card.next-3 {
+  opacity: 0;
+}
+
+.we-card.prev-1 {
+  transform: translateX(-230px) rotate(-10deg) translateY(20px);
+}
+
+.we-card.next-1 {
+  transform: translateX(230px) rotate(10deg) translateY(20px);
+}
+
+.we-card.prev-2 {
+  transform: translateX(-483px) rotate(-20deg) translateY(80px);
+}
+
+.we-card.next-2 {
+  transform: translateX(483px) rotate(20deg) translateY(80px);
+}
+
+.we-card.prev-3 {
+  transform: translateX(-697px) rotate(-30deg) translateY(172px);
+}
+
+.we-card.next-3 {
+  transform: translateX(697px) rotate(30deg) translateY(172px);
+}
+
+.we-arrow {
+  font-size: 60px;
+  cursor: pointer;
+  user-select: none;
+  color: #ffff;
+  padding: 20px;
+  z-index: 20;
+}
+
+.we-arrow:hover {
+  color: #555;
+}
+
+
+
+
+.we-carousel1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+
+.we-card-container1 {
+  width: 800px;
+  height: 400px;
+  position: relative;
+  border-radius: 100px;
+}
+
+.we-card1 {
+  width: 800px;
+  height: 400px;
+  background-color: #fff;
+  color: #000;
+/*   border-radius: 50px; */
+  box-sizing: border-box;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.5s ease;
+  filter: none;
+}
+
+
+.we-card1 h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.we-card1 p {
+  color: #555;
+}
+
+.we-card1.active {
+  opacity: 1;
+  z-index: 2;
+  transform: translateX(0);
+}
+
+.we-card1.prev-1,
+.we-card1.next-1 {
+  opacity: 0.5;
+  filter: blur(4px);
+  z-index: 1;
+}
+
+.we-card1.prev-2,
+.we-card1.next-2 {
+  opacity: 0.2;
+  filter: blur(6px);
+  z-index: 1;
+}
+
+.we-card1.prev-3,
+.we-card1.next-3 {
+  opacity: 0;
+}
+
+.we-card1.prev-1 {
+  transform: translateX(-230px) rotate(-10deg) translateY(20px);
+}
+
+.we-card1.next-1 {
+  transform: translateX(230px) rotate(10deg) translateY(20px);
+}
+
+.we-card1.prev-2 {
+  transform: translateX(-483px) rotate(-20deg) translateY(80px);
+}
+
+.we-card1.next-2 {
+  transform: translateX(483px) rotate(20deg) translateY(80px);
+}
+
+.we-card1.prev-3 {
+  transform: translateX(-697px) rotate(-30deg) translateY(172px);
+}
+
+.we-card1.next-3 {
+  transform: translateX(697px) rotate(30deg) translateY(172px);
+}
+
+.we-arrow1 {
+  font-size: 60px;
+  cursor: pointer;
+  user-select: none;
+  color: #ffff;
+  padding: 20px;
+  z-index: 20;
+}
+
+.we-arrow1:hover {
+  color: #555;
+}
